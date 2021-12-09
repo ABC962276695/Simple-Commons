@@ -146,7 +146,7 @@ abstract class MyRecyclerViewAdapter(val activity: BaseSimpleActivity, val recyc
         }
     }
 
-    fun itemLongClicked(position: Int) {
+    open fun itemLongClicked(position: Int) {
         recyclerView.setDragSelectActive(position)
         lastLongPressedItem = if (lastLongPressedItem == -1) {
             position
