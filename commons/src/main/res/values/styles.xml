@@ -110,8 +110,8 @@
     </style>
 
     <style name="Base.Widget.AppCompat.ActionMode" parent="">
-        <item name="background">@drawable/actionmenu_background</item>
-        <item name="backgroundSplit">?attr/actionModeSplitBackground</item>
+         <item name="background">@color/md_blue</item>
+        <item name="backgroundSplit">@color/md_grey_black_dark</item>
         <item name="height">?attr/actionBarSize</item>
         <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Title</item>
         <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle</item>
