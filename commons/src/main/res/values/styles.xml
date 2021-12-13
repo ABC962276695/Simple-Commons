@@ -1,8 +1,8 @@
 <resources>
 
     <style name="AppTheme.Base" parent="Theme.AppCompat">
-        <item name="colorPrimary">@color/color_primary</item>
-        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorPrimary">@color/md_blue</item>
+        <item name="colorPrimaryDark">@color/md_blue</item>
         <item name="colorAccent">@color/color_accent</item>
         <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
         <item name="spinnerDropDownItemStyle">@style/SpinnerItem.DropDownItem</item>
