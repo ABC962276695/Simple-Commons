@@ -16,6 +16,13 @@
         <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
     </style>
 
+        <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    <!-- Primary brand color. -->
+        <item name="colorPrimary">@android:color/holo_blue_bright</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_bright</item>
+        <item name="statusBarBackground">@color/md_red</item>
+    </style>
+    
     <style name="AppTheme.Base.Core" parent="Theme.AppCompat.NoActionBar">
         <item name="android:colorControlHighlight">@color/activated_item_foreground</item>
         <item name="colorControlHighlight">@color/activated_item_foreground</item>
