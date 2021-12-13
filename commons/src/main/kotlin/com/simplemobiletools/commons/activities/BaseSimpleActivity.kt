@@ -67,14 +67,14 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     abstract fun getAppLauncherName(): String
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        if (useDynamicTheme) {
+  /*      if (useDynamicTheme) {
             setTheme(getThemeId(showTransparentTop = showTransparentTop))
-        }
+        }*/
 
         super.onCreate(savedInstanceState)
     }
 
-    override fun onResume() {
+ /*   override fun onResume() {
         super.onResume()
         if (useDynamicTheme) {
             setTheme(getThemeId(showTransparentTop = showTransparentTop))
@@ -89,7 +89,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
         updateRecentsAppIcon()
         updateNavigationBarColor()
-    }
+    }*/
 
     override fun onDestroy() {
         super.onDestroy()
