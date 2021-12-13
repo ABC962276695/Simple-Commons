@@ -72,7 +72,6 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
 
         super.onCreate(savedInstanceState)
-     Toast.makeText(this, "aaaa", Toast.LENGTH_SHORT).show()
     }
 
     override fun onResume() {
