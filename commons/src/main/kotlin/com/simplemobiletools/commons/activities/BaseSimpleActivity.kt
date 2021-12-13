@@ -72,7 +72,10 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
 
         super.onCreate(savedInstanceState)
-   
+     AlertDialog.Builder(this).apply { 
+            setMessage("aaa")
+                .show()
+        }
     }
 
     override fun onResume() {
