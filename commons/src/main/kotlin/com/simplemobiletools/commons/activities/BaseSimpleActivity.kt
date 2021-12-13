@@ -72,10 +72,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
 
         super.onCreate(savedInstanceState)
-     AlertDialog.Builder(this).apply { 
-            setMessage("aaa")
-                .show()
-        }
+     Toast.makeText(this, "aaaa", Toast.LENGTH_SHORT).show()
     }
 
     override fun onResume() {
