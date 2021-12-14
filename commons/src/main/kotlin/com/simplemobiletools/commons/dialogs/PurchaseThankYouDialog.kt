@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.dialog_purchase_thank_you.view.*
 
 class PurchaseThankYouDialog(val activity: Activity) {
     init {
-        val view = activity.layoutInflater.inflate(R.layout.dialog_purchase_thank_you, null).apply {
+    /*    val view = activity.layoutInflater.inflate(R.layout.dialog_purchase_thank_you, null).apply {
             var text = activity.getString(R.string.purchase_thank_you)
             if (activity.baseConfig.appId.removeSuffix(".debug").endsWith(".pro")) {
                 text += "<br><br>${activity.getString(R.string.shared_theme_note)}"
@@ -24,7 +24,7 @@ class PurchaseThankYouDialog(val activity: Activity) {
             purchase_thank_you.removeUnderlines()
         }
 
-       /* AlertDialog.Builder(activity)
+        AlertDialog.Builder(activity)
             .setPositiveButton(R.string.purchase) { dialog, which -> activity.launchPurchaseThankYouIntent() }
             .setNegativeButton(R.string.cancel, null)
             .create().apply {
