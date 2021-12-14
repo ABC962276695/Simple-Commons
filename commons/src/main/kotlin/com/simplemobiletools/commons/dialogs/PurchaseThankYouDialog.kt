@@ -24,11 +24,11 @@ class PurchaseThankYouDialog(val activity: Activity) {
             purchase_thank_you.removeUnderlines()
         }
 
-        AlertDialog.Builder(activity)
+       /* AlertDialog.Builder(activity)
             .setPositiveButton(R.string.purchase) { dialog, which -> activity.launchPurchaseThankYouIntent() }
             .setNegativeButton(R.string.cancel, null)
             .create().apply {
                 activity.setupDialogStuff(view, this, cancelOnTouchOutside = false)
-            }
+            }*/
     }
 }
