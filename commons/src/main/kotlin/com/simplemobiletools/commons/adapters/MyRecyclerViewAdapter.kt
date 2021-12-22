@@ -126,9 +126,9 @@ abstract class MyRecyclerViewAdapter(val activity: BaseSimpleActivity, val recyc
 
         notifyItemChanged(pos + positionOffset)
 
-        if (updateTitle) {
+     /*   if (updateTitle) {
             updateTitle()
-        }
+        }*/
 
         if (selectedKeys.isEmpty()) {
             finishActMode()
@@ -156,7 +156,7 @@ abstract class MyRecyclerViewAdapter(val activity: BaseSimpleActivity, val recyc
             for (i in min..max) {
                 toggleItemSelection(true, i, false)
             }
-            updateTitle()
+      //      updateTitle()
             position
         }
     }
