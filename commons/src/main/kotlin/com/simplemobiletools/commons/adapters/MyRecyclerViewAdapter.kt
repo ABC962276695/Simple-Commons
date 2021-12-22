@@ -38,7 +38,7 @@ abstract class MyRecyclerViewAdapter(val activity: BaseSimpleActivity, val recyc
 
     abstract fun getActionMenuId(): Int
 
-  //  abstract fun prepareActionMode(menu: Menu)
+  //  abstract fun prepareActionMode(menu: Menu) 
 
     abstract fun actionItemPressed(id: Int)
 
